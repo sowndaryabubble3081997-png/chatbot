@@ -1,1 +1,37 @@
-# chatbot
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health & Wellness Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            text-align: center;
+        }
+        h1 {
+            color: #2c7a7b;
+        }
+        iframe {
+            margin-top: 20px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Health & Wellness Assistant 🤖</h1>
+    <h1>Ask me about hydration, exercise, sleep, and healthy diet.</h1>
+    <h1>The Dialogflow Health & Wellness Assistant was embedded into a simple HTML webpage using the iframe integration provided by Dialogflow Web Demo. This allows users to interact with the chatbot directly through a browser interface.</h1>
+    
+
+    <!-- Dialogflow Chatbot Iframe -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Fooddietbot"
+  agent-id="4cac17ff-6f93-41e9-a42c-8fc9b4ebee4e"
+  language-code="en"
+></df-messenger>
+</body>
+</html>
